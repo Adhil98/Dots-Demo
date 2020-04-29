@@ -1,0 +1,8 @@
+[ 390/1051  0s] CopyTool ../../Builds/tiny3d-asmjs-tiny3d/Data/46b433b264c69cbd39f04ad2e5d12be8
+[ 391/1051  0s] CopyTool ../../Builds/tiny3d-asmjs-tiny3d/Data/34c1c1232ad50de47bde0e4799ae6610
+[ 391/1051  0s] CopyTool ../../Builds/tiny3d-asmjs-tiny3d/Data/b1ce2ee81f7bd24d1e48cec4fa13c064
+[1046/1051  0s] CopyTool ../../Builds/tiny3d-asmjs-tiny3d/Tiny3D.mem
+[1047/1051  0s] CopyTool ../../Builds/tiny3d-asmjs-tiny3d/Tiny3D.js
+[1048/1051  0s] CopyTool ../../Builds/tiny3d-asmjs-tiny3d/Tiny3D.asm.js
+[1049/1051  0s] CopyTool ../../Builds/tiny3d-asmjs-tiny3d/Tiny3D.html
+*** Bee build success (0.27 seconds), 7 items updated
