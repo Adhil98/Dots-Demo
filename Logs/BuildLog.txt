@@ -1,0 +1,482 @@
+Warning: BuildConfiguration 'tiny3d-asmjs-index' specified 'EnableBurst', but target (asmjs) does not support burst yet. Not using burst.
+Warning: BuildConfiguration 'tiny3d-asmjs-tiny3d' specified 'EnableBurst', but target (asmjs) does not support burst yet. Not using burst.
+No asmdef found for Unity.ZeroJobs
+[       4s] Executed build program. Created build graph with 1079 nodes.
+[     5s] Build frontend of artifacts/tundra_tiny3d-asmjs-index_71x.dag ran (no suitable previous build dag file)
+[  12/1051  0s] WriteResponseFile artifacts/rsp/16434425041530691917.rsp
+[  13/1051  0s] WriteResponseFile artifacts/rsp/4252342656344428685.rsp
+[  14/1051  0s] WriteResponseFile artifacts/rsp/2217464206378656307.rsp
+[  15/1051  0s] WriteResponseFile artifacts/rsp/46240746304671016.rsp
+[  49/1051  0s] CopyTool ../../Builds/tiny3d-asmjs-index/Data/46b433b264c69cbd39f04ad2e5d12be8
+[  74/1051  0s] CopyTool ../../Builds/tiny3d-asmjs-index/Data/b1ce2ee81f7bd24d1e48cec4fa13c064
+[  74/1051  0s] CopyTool ../../Builds/tiny3d-asmjs-index/Data/34c1c1232ad50de47bde0e4799ae6610
+[ 598/1051  1s] C_WebGL_asmjs artifacts/lib_unity_lowlevel/tiny3d-asmjs-index/tyu4/dummy.o
+[ 599/1051  1s] C_WebGL_asmjs artifacts/lib_unity_lowlevel/tiny3d-asmjs-index/fkk9/allocators.o
+In file included from /Users/bharathsrk/Desktop/A/Unity/Project Tiny/ProjectTinySamples-master/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.24.0-preview.1/LowLevelSupport~/Unity.LowLevel/cpp~/allocators.cpp:1:
+/Users/bharathsrk/Desktop/A/Unity/Project Tiny/ProjectTinySamples-master/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.24.0-preview.1/LowLevelSupport~/Unity.LowLevel/cpp~/include/allocators.h:6:16: warning: nested namespace definition is a C++17 extension; define each namespace separately [-Wc++17-extensions]
+namespace Unity::LowLevel
+               ^~~~~~~~~~
+                { namespace LowLevel
+1 warning generated.
+[ 600/1051  0s] C_WebGL_asmjs artifacts/lib_unity_lowlevel/tiny3d-asmjs-index/fkk9/guard.o
+[ 601/1051  1s] C_WebGL_asmjs artifacts/lib_unity_lowlevel/tiny3d-asmjs-index/fkk9/BurstInit.o
+[ 602/1051  0s] C_WebGL_asmjs artifacts/lib_unity_tiny_burst/tiny3d-asmjs-index/tyu4/dummy.o
+[ 603/1051  0s] C_WebGL_asmjs artifacts/lib_unity_zerojobs/tiny3d-asmjs-index/tyu4/dummy.o
+[ 604/1051  0s] C_WebGL_asmjs artifacts/lib_unity_zerojobs/tiny3d-asmjs-index/l3fx/ZeroJobsNativeSupport.o
+[ 605/1051  0s] C_WebGL_asmjs artifacts/lib_unity_tiny_core/tiny3d-asmjs-index/tyu4/dummy.o
+[ 606/1051  0s] C_WebGL_asmjs artifacts/lib_unity_tiny_image2d_web/tiny3d-asmjs-index/tyu4/dummy.o
+[ 607/1051  1s] C_WebGL_asmjs artifacts/lib_unity_tiny_burst/tiny3d-asmjs-index/hjrf/BurstNativeSupport.o
+In file included from /Users/bharathsrk/Desktop/A/Unity/Project Tiny/ProjectTinySamples-master/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.24.0-preview.1/LowLevelSupport~/Unity.Tiny.Burst/cpp~/BurstNativeSupport.cpp:8:
+/Users/bharathsrk/Desktop/A/Unity/Project Tiny/ProjectTinySamples-master/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.24.0-preview.1/LowLevelSupport~/Unity.LowLevel/cpp~/include/allocators.h:6:16: warning: nested namespace definition is a C++17 extension; define each namespace separately [-Wc++17-extensions]
+namespace Unity::LowLevel
+               ^~~~~~~~~~
+                { namespace LowLevel
+1 warning generated.
+[ 608/1051  1s] C_WebGL_asmjs artifacts/lib_unity_tiny_core/tiny3d-asmjs-index/w1y7/Log.o
+[ 609/1051  0s] C_WebGL_asmjs artifacts/lib_unity_tiny_codec/tiny3d-asmjs-index/tyu4/dummy.o
+[ 610/1051  0s] C_WebGL_asmjs artifacts/lib_unity_tiny_codec/tiny3d-asmjs-index/rp1r/LZ4Wrapper.o
+[ 611/1051  0s] C_WebGL_asmjs artifacts/lib_unity_tiny_io/tiny3d-asmjs-index/tyu4/dummy.o
+[ 612/1051  0s] C_WebGL_asmjs artifacts/lib_unity_tiny_io/tiny3d-asmjs-index/n3i8/AndroidLoader.o
+[ 613/1051  0s] C_WebGL_asmjs artifacts/lib_unity_platforms_common/tiny3d-asmjs-index/tyu4/dummy.o
+[ 614/1051  0s] C_WebGL_asmjs artifacts/lib_unity_platforms_common/tiny3d-asmjs-index/ylwd/macOSWrapper.o
+[ 615/1051  0s] C_WebGL_asmjs artifacts/lib_unity_platforms_common/tiny3d-asmjs-index/6rq1/WindowsWrapper.o
+[ 616/1051  2s] C_WebGL_asmjs artifacts/lib_unity_tiny_io/tiny3d-asmjs-index/tzhb/TinyIO.o
+In file included from /Users/bharathsrk/Desktop/A/Unity/Project Tiny/ProjectTinySamples-master/Tiny3D/Library/PackageCache/com.unity.tiny@0.24.0-preview.1/Unity.Tiny.IO/cpp~/TinyIO.cpp:3:
+/Users/bharathsrk/Desktop/A/Unity/Project Tiny/ProjectTinySamples-master/Tiny3D/Library/PackageCache/com.unity.dots.runtime@0.24.0-preview.1/LowLevelSupport~/Unity.LowLevel/cpp~/include/allocators.h:6:16: warning: nested namespace definition is a C++17 extension; define each namespace separately [-Wc++17-extensions]
+namespace Unity::LowLevel
+               ^~~~~~~~~~
+                { namespace LowLevel
+1 warning generated.
+[ 617/1051  2s] C_WebGL_asmjs artifacts/lib_unity_tiny_codec/tiny3d-asmjs-index/mmyj/lz4.o
+[ 618/1051  0s] C_WebGL_asmjs artifacts/bimg/tiny3d-asmjs-index/yw6r/image_gnf.o
+[ 619/1051  8s] Csc artifacts/UnsafeUtility.dll/tiny3d-asmjs-index/UnsafeUtility.dll (+2 others)
+[ 620/1051  2s] C_WebGL_asmjs artifacts/bimg/tiny3d-asmjs-index/yw6r/image.o
+[ 621/1051  2s] C_WebGL_asmjs artifacts/bimg/tiny3d-asmjs-index/wwu2/astc_file.o
+[ 622/1051  3s] C_WebGL_asmjs artifacts/bx/tiny3d-asmjs-index/77b1/amalgamated.o
+[ 623/1051  1s] C_WebGL_asmjs artifacts/bimg/tiny3d-asmjs-index/wwu2/codec.o
+[ 624/1051  1s] C_WebGL_asmjs artifacts/bimg/tiny3d-asmjs-index/wwu2/endpoint_codec.o
+[ 625/1051  1s] C_WebGL_asmjs artifacts/bimg/tiny3d-asmjs-index/wwu2/footprint.o
+[ 626/1051  2s] C_WebGL_asmjs artifacts/bimg/tiny3d-asmjs-index/wwu2/integer_sequence_codec.o
+[ 627/1051  1s] C_WebGL_asmjs artifacts/bimg/tiny3d-asmjs-index/wwu2/logical_astc_block.o
+[ 628/1051  2s] C_WebGL_asmjs artifacts/bimg/tiny3d-asmjs-index/wwu2/intermediate_astc_block.o
+[ 629/1051  1s] C_WebGL_asmjs artifacts/bimg/tiny3d-asmjs-index/wwu2/physical_astc_block.o
+[ 630/1051  2s] C_WebGL_asmjs artifacts/bimg/tiny3d-asmjs-index/wwu2/partition.o
+[ 631/1051  1s] C_WebGL_asmjs artifacts/bimg/tiny3d-asmjs-index/wwu2/weight_infill.o
+[ 632/1051  0s] C_WebGL_asmjs artifacts/lib_unity_tiny_rendering_native/tiny3d-asmjs-index/tyu4/dummy.o
+[ 633/1051  2s] C_WebGL_asmjs artifacts/bimg/tiny3d-asmjs-index/wwu2/quantization.o
+[ 634/1051  1s] C_WebGL_asmjs artifacts/lib_unity_tiny_rendering_native/tiny3d-asmjs-index/rchi/BufferedCallbacks.o
+[ 635/1051  1s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/sp7d/il2cpp-codegen.o
+[ 636/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/jmop/Debugger.o
+[ 637/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/jmop/Stopwatch.o
+[ 638/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/kkh8/GCHandle.o
+[ 639/1051  3s] C_WebGL_asmjs artifacts/boehm-gc/tiny3d-asmjs-index/3qko/gc.o
+[ 640/1051  1s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/5t12/Console.o
+[ 641/1051  1s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/3oq1/Interlocked.o
+[ 642/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/5t12/Enum.o
+[ 643/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/5t12/GC.o
+[ 644/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/5t12/Type.o
+[ 645/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/5t12/Math.o
+[ 646/1051  1s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/5t12/Environment.o
+[ 647/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/ckog/il2cpp-benchmark-support.o
+[ 648/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/ckog/il2cpp-api.o
+[ 649/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/ckog/il2cpp-virtual-remap.o
+[ 650/1051  1s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/2q4c/DebugMetadata.o
+[ 651/1051  1s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/quxa/pch-cpp.o
+[ 652/1051  1s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/2q4c/Exception.o
+[ 653/1051  1s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/2q4c/PlatformInvoke.o
+[ 654/1051  1s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/2q4c/Runtime.o
+[ 655/1051  1s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/2q4c/Reflection.o
+[ 656/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/2q4c/String.o
+[ 657/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/2q4c/Type.o
+[ 658/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/2q4c/TypeUniverse.o
+[ 659/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/zq8x/Initialize.o
+[ 660/1051  1s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/2q4c/StackTrace.o
+[ 661/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/zq8x/Locale.o
+[ 662/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/zq8x/StackTrace.o
+[ 663/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/zq8x/TimeZoneInfo.o
+[ 664/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/0mhp/COM.o
+[ 665/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/0mhp/ConditionVariable.o
+[ 666/1051 10s] C_WebGL_asmjs artifacts/bgfx/tiny3d-asmjs-index/geoa/amalgamated.o
+[ 667/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/0mhp/Console.o
+[ 668/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/0mhp/CpuInfo.o
+[ 669/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/0mhp/Cryptography.o
+[ 670/1051  1s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/0mhp/Allocator.o
+[ 671/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/0mhp/Debug.o
+[ 672/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/0mhp/Directory.o
+[ 673/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/0mhp/Error.o
+[ 674/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/0mhp/Event.o
+[ 675/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/0mhp/File.o
+[ 676/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/0mhp/Handle.o
+[ 677/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/0mhp/LibraryLoader.o
+[ 678/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/0mhp/Locale.o
+[ 679/1051  1s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/0mhp/Environment.o
+[ 680/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/0mhp/Memory.o
+[ 681/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/0mhp/Messages.o
+[ 682/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/0mhp/MemoryMappedFile.o
+[ 683/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/0mhp/Mutex.o
+[ 684/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/0mhp/NativeMethods.o
+[ 685/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/0mhp/Path.o
+[ 686/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/0mhp/Process.o
+[ 687/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/0mhp/Semaphore.o
+[ 688/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/0mhp/Socket.o
+[ 689/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/0mhp/SystemCertificates.o
+[ 690/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/usd2/COMTests.o
+[ 691/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/usd2/ConditionVariableTests.o
+[ 692/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/usd2/CpuInfoTests.o
+[ 693/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/usd2/ConsoleTests.o
+[ 694/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/usd2/CryptographyTests.o
+[ 695/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/usd2/DebugTests.o
+[ 696/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/usd2/EnvironmentTests.o
+[ 697/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/usd2/DirectoryTests.o
+[ 698/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/usd2/ErrorTests.o
+[ 699/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/usd2/EventTests.o
+[ 700/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/usd2/FileTests.o
+[ 701/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/usd2/LocaleTests.o
+[ 702/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/usd2/LibraryLoaderTests.o
+[ 703/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/usd2/MainTestRunner.o
+[ 704/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/usd2/MemoryMappedFileTests.o
+[ 705/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/usd2/MessagesTests.o
+[ 706/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/usd2/MemoryTests.o
+[ 707/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/usd2/MutexTests.o
+[ 708/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/usd2/PathTests.o
+[ 709/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/usd2/NativeMethodsTests.o
+[ 710/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/usd2/ProcessTests.o
+[ 711/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/usd2/SemaphoreTests.o
+[ 712/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/usd2/SocketTests.o
+[ 713/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/usd2/ThreadTests.o
+[ 714/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/usd2/ThreadLocalValueTests.o
+[ 715/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/usd2/TimeTests.o
+[ 716/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/0mhp/Thread.o
+[ 717/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/usd2/TimeZoneInfoTests.o
+[ 718/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/0mhp/ThreadLocalValue.o
+[ 719/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/0mhp/Time.o
+[ 720/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/0mhp/TimeZoneInfo.o
+[ 721/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/0mhp/TimeZone.o
+[ 722/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/8u4y/SocketBridge.o
+[ 723/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/vn11/Error.o
+[ 724/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/vt23/COM.o
+[ 725/1051  1s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/vn11/ConditionVariable.o
+[ 726/1051  1s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/vn11/CrashHelpers.o
+[ 727/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/vt23/CpuInfo.o
+[ 728/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/vt23/CrashHelpers.o
+[ 729/1051  1s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/vn11/Event.o
+[ 730/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/vt23/Environment.o
+[ 731/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/vt23/Initialize.o
+[ 732/1051  1s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/vt23/Debug.o
+[ 733/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/vt23/Handle.o
+[ 734/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/vt23/File.o
+[ 735/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/vt23/MarshalStringAlloc.o
+[ 736/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/vt23/MemoryMappedFile.o
+[ 737/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/vt23/SocketBridge.o
+[ 738/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/vt23/SystemCertificates.o
+[ 739/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/vt23/SocketImpl.o
+[ 740/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/vt23/TimeZoneInfo.o
+[ 741/1051  1s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/vt23/Process.o
+[ 742/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/l4if/Automation.o
+[ 743/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/l4if/Debug.o
+[ 744/1051  1s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/vt23/WindowsRuntime.o
+[ 745/1051  1s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/vn11/LibraryLoader.o
+[ 746/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/l4if/File.o
+[ 747/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/l4if/Initialize.o
+[ 748/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/l4if/Lifecycle.o
+[ 749/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/l4if/Process.o
+[ 750/1051  1s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/l4if/Environment.o
+[ 751/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/l4if/StackTrace.o
+[ 752/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/l4if/TimeZoneInfo.o
+[ 753/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/s9qf/Image.o
+[ 754/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/s9qf/Process.o
+[ 755/1051  1s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/vn11/Messages.o
+[ 756/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/s9qf/SystemCertificates.o
+[ 757/1051  1s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/vn11/Mutex.o
+[ 758/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/36wb/ConditionVariableImpl.o
+[ 759/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/36wb/Console.o
+[ 760/1051  1s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/vn11/Path.o
+[ 761/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/36wb/CpuInfo.o
+[ 762/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/36wb/CrashHelpers.o
+[ 763/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/36wb/Cryptography.o
+[ 764/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/36wb/Directory.o
+[ 765/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/36wb/Encoding.o
+[ 766/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/36wb/EventImpl.o
+[ 767/1051  1s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/36wb/Environment.o
+[ 768/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/36wb/FileSystemWatcher.o
+[ 769/1051  1s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/36wb/Error.o
+[ 770/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/36wb/Image.o
+[ 771/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/36wb/LastError.o
+[ 772/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/36wb/Locale.o
+[ 773/1051  1s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/36wb/File.o
+In file included from /Users/bharathsrk/Desktop/A/Unity/Project Tiny/ProjectTinySamples-master/Tiny3D/Library/DotsRuntimeBuild/artifacts/Stevedore/il2cpp/libil2cpp/os/Posix/File.cpp:27:
+/Users/bharathsrk/Desktop/A/Unity/Project Tiny/ProjectTinySamples-master/Tiny3D/Library/DotsRuntimeBuild/artifacts/Stevedore/emscripten-unix/system/include/libc/sys/errno.h:1:2: warning: redirecting incorrect #include <sys/errno.h> to <errno.h> [-W#warnings]
+#warning redirecting incorrect #include <sys/errno.h> to <errno.h>
+ ^
+1 warning generated.
+[ 774/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/36wb/MarshalAlloc.o
+[ 775/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/36wb/Memory.o
+[ 776/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/36wb/MemoryMappedFile.o
+[ 777/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/36wb/MutexImpl.o
+[ 778/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/36wb/NativeMethods.o
+[ 779/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/36wb/Path.o
+[ 780/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/36wb/PosixHelpers.o
+[ 781/1051  1s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/36wb/LibraryLoader.o
+[ 782/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/36wb/Process.o
+[ 783/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/36wb/PosixWaitObject.o
+[ 784/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/36wb/SemaphoreImpl.o
+[ 785/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/36wb/SocketImpl.o
+[ 786/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/36wb/SystemCertificates.o
+[ 787/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/36wb/StackTrace.o
+[ 788/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/36wb/ThreadImpl.o
+[ 789/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/36wb/Time.o
+[ 790/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/36wb/TimeZone.o
+[ 791/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/vn11/ReaderWriterLock.o
+[ 792/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/vn11/Socket.o
+[ 793/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/jz1h/ThreadImpl.o
+[ 794/1051  1s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/vn11/Semaphore.o
+[ 795/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/v2jj/COM.o
+[ 796/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/v2jj/ConditionVariableImpl.o
+[ 797/1051  1s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/vn11/StackTrace.o
+[ 798/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/v2jj/Console.o
+[ 799/1051  1s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/vn11/Thread.o
+[ 800/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/v2jj/CpuInfo.o
+[ 801/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/v2jj/CrashHelpers.o
+[ 802/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/v2jj/Cryptography.o
+[ 803/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/v2jj/Debug.o
+[ 804/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/v2jj/Directory.o
+[ 805/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/v2jj/DllMain.o
+[ 806/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/v2jj/Encoding.o
+[ 807/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/v2jj/Environment.o
+[ 808/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/v2jj/EventImpl.o
+[ 809/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/v2jj/File.o
+[ 810/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/v2jj/Handle.o
+[ 811/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/v2jj/FileSystemWatcher.o
+[ 812/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/v2jj/Initialize.o
+[ 813/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/v2jj/Image.o
+[ 814/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/v2jj/LastError.o
+[ 815/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/v2jj/LibraryLoader.o
+[ 816/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/v2jj/Locale.o
+[ 817/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/v2jj/MarshalAlloc.o
+[ 818/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/v2jj/Memory.o
+[ 819/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/v2jj/MarshalStringAlloc.o
+[ 820/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/v2jj/MemoryMappedFile.o
+[ 821/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/v2jj/MutexImpl.o
+[ 822/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/v2jj/NativeMethods.o
+[ 823/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/v2jj/Path.o
+[ 824/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/v2jj/SemaphoreImpl.o
+[ 825/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/v2jj/StackTrace.o
+[ 826/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/v2jj/SocketImpl.o
+[ 827/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/v2jj/SynchronizationContext.o
+[ 828/1051  1s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/v2jj/Process.o
+[ 829/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/v2jj/SystemCertificates.o
+[ 830/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/v2jj/ThreadImpl.o
+[ 831/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/v2jj/Time.o
+[ 832/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/v2jj/TimeZone.o
+[ 833/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/v2jj/WindowsHelpers.o
+[ 834/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/v2jj/WindowsRuntime.o
+[ 835/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/u2rb/Win32ApiWindowsGamesEmulation.o
+[ 836/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/e3hf/BrokeredFileSystem.o
+[ 837/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/e3hf/File.o
+[ 838/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/e3hf/Environment.o
+[ 839/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/e3hf/Cryptography.o
+[ 840/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/e3hf/Initialize.o
+[ 841/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/e3hf/MarshalAlloc.o
+[ 842/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/e3hf/Locale.o
+[ 843/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/e3hf/Process.o
+[ 844/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/e3hf/Win32ApiSharedEmulation.o
+[ 845/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/e3hf/Win32ApiWinRTEmulation.o
+[ 846/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/f981/NullGC.o
+[ 847/1051  1s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/f981/BoehmGC.o
+[ 848/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/f981/WriteBarrier.o
+[ 849/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/f981/WriteBarrierValidation.o
+[ 850/1051  1s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/f981/GarbageCollector.o
+[ 851/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/m6ht/Assert.o
+[ 852/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/m6ht/AtomicQueue.o
+[ 853/1051  1s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/f981/GCHandle.o
+[ 854/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/m6ht/Il2CppHStringReference.o
+[ 855/1051  1s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/m6ht/DirectoryUtils.o
+[ 856/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/m6ht/Logging.o
+[ 857/1051  1s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/m6ht/Exception.o
+[ 858/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/m6ht/MarshalingUtils.o
+[ 859/1051  1s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/m6ht/Environment.o
+[ 860/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/m6ht/MemoryMappedFile.o
+[ 861/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/m6ht/Memory.o
+[ 862/1051  1s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/m6ht/MemoryPool.o
+[ 863/1051  1s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/m6ht/mono-structs.o
+[ 864/1051  1s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/m6ht/PathUtils.o
+[ 865/1051  1s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/m6ht/Output.o
+[ 866/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/q6uc/BlobReader.o
+[ 867/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/q6uc/Debugger.o
+[ 868/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/q6uc/NativeDelegateMethodCache.o
+[ 869/1051  1s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/m6ht/Runtime.o
+[ 870/1051  0s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/q6uc/VmStringUtils.o
+[ 871/1051  0s] C_WebGL_asmjs artifacts/lib_unity_tiny_web/tiny3d-asmjs-index/tyu4/dummy.o
+[ 872/1051  1s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/m6ht/StringUtils.o
+[ 873/1051  0s] C_WebGL_asmjs artifacts/lib_unity_tiny_web/tiny3d-asmjs-index/0x95/SendMessageCallbackHandler.o
+[ 874/1051  0s] C_WebGL_asmjs artifacts/lib_unity_tiny_web/tiny3d-asmjs-index/0x95/HTMLWrapper.o
+[ 875/1051  0s] C_WebGL_asmjs artifacts/lib_unity_tiny_input_web/tiny3d-asmjs-index/tyu4/dummy.o
+[ 876/1051  0s] C_WebGL_asmjs artifacts/lib_unity_platforms_runloop/tiny3d-asmjs-index/tyu4/dummy.o
+[ 881/1051  2s] C_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/q6uc/NativeSymbol.o
+[ 882/1051  0s] Lib_WebGL_asmjs artifacts/lib_unity_lowlevel/tiny3d-asmjs-index/lib_unity_lowlevel.bc
+shared:WARNING: Assuming object file output in the absence of `-c`, based on output filename. Please add with `-c` or `-r` to avoid this warning
+[ 883/1051  1s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/1g7o/xxhash.o
+[ 887/1051  1s] C_WebGL_asmjs artifacts/lib_unity_platforms_runloop/tiny3d-asmjs-index/mbhu/HTMLWrapper.o
+[ 889/1051  0s] Lib_WebGL_asmjs artifacts/boehm-gc/tiny3d-asmjs-index/boehm-gc.bc
+shared:WARNING: Assuming object file output in the absence of `-c`, based on output filename. Please add with `-c` or `-r` to avoid this warning
+[ 894/1051  0s] Lib_WebGL_asmjs artifacts/lib_unity_tiny_burst/tiny3d-asmjs-index/lib_unity_tiny_burst.bc
+shared:WARNING: Assuming object file output in the absence of `-c`, based on output filename. Please add with `-c` or `-r` to avoid this warning
+[ 898/1051  2s] Patch artifacts/UnsafeUtility.dll/tiny3d-asmjs-index/patched/UnsafeUtility.dll (+pdb)
+[UnsafeUtilityPatcher] Patching assembly : artifacts/UnsafeUtility.dll/tiny3d-asmjs-index/UnsafeUtility.dll to : artifacts/UnsafeUtility.dll/tiny3d-asmjs-index/patched/UnsafeUtility.dll
+[ 913/1051  1s] Lib_WebGL_asmjs artifacts/libil2cpptiny/tiny3d-asmjs-index/libil2cpptiny.bc
+shared:WARNING: Assuming object file output in the absence of `-c`, based on output filename. Please add with `-c` or `-r` to avoid this warning
+[ 914/1051  1s] Lib_WebGL_asmjs artifacts/lib_unity_zerojobs/tiny3d-asmjs-index/lib_unity_zerojobs.bc
+shared:WARNING: Assuming object file output in the absence of `-c`, based on output filename. Please add with `-c` or `-r` to avoid this warning
+[ 915/1051  0s] ILPostProcessorRunner artifacts/Tiny3D/tiny3d-asmjs-index/post_ilprocessing/netstandard.dll
+[ 916/1051  0s] ILPostProcessorRunner artifacts/Tiny3D/tiny3d-asmjs-index/post_ilprocessing/mscorlib.dll
+[ 917/1051  0s] ILPostProcessorRunner artifacts/Tiny3D/tiny3d-asmjs-index/post_ilprocessing/UnsafeUtility.dll (+pdb)
+[ 918/1051  0s] Lib_WebGL_asmjs artifacts/lib_unity_tiny_core/tiny3d-asmjs-index/lib_unity_tiny_core.bc
+shared:WARNING: Assuming object file output in the absence of `-c`, based on output filename. Please add with `-c` or `-r` to avoid this warning
+[ 919/1051  0s] Lib_WebGL_asmjs artifacts/lib_unity_tiny_codec/tiny3d-asmjs-index/lib_unity_tiny_codec.bc
+shared:WARNING: Assuming object file output in the absence of `-c`, based on output filename. Please add with `-c` or `-r` to avoid this warning
+[ 920/1051  0s] Lib_WebGL_asmjs artifacts/lib_unity_platforms_common/tiny3d-asmjs-index/lib_unity_platforms_common.bc
+shared:WARNING: Assuming object file output in the absence of `-c`, based on output filename. Please add with `-c` or `-r` to avoid this warning
+[ 921/1051  0s] Lib_WebGL_asmjs artifacts/lib_unity_tiny_image2d_web/tiny3d-asmjs-index/lib_unity_tiny_image2d_web.bc
+shared:WARNING: Assuming object file output in the absence of `-c`, based on output filename. Please add with `-c` or `-r` to avoid this warning
+[ 922/1051  0s] Lib_WebGL_asmjs artifacts/lib_unity_platforms_runloop/tiny3d-asmjs-index/lib_unity_platforms_runloop.bc
+shared:WARNING: Assuming object file output in the absence of `-c`, based on output filename. Please add with `-c` or `-r` to avoid this warning
+[ 923/1051  4s] Csc artifacts/Unity.LowLevel.dll/tiny3d-asmjs-index/Unity.LowLevel.dll (+2 others)
+[ 924/1051  0s] Lib_WebGL_asmjs artifacts/lib_unity_tiny_io/tiny3d-asmjs-index/lib_unity_tiny_io.bc
+shared:WARNING: Assuming object file output in the absence of `-c`, based on output filename. Please add with `-c` or `-r` to avoid this warning
+[ 925/1051  0s] Lib_WebGL_asmjs artifacts/lib_unity_tiny_web/tiny3d-asmjs-index/lib_unity_tiny_web.bc
+shared:WARNING: Assuming object file output in the absence of `-c`, based on output filename. Please add with `-c` or `-r` to avoid this warning
+[ 926/1051  0s] ILPostProcessorRunner artifacts/Tiny3D/tiny3d-asmjs-index/post_ilprocessing/Unity.LowLevel.dll (+pdb)
+[ 927/1051  0s] Lib_WebGL_asmjs artifacts/lib_unity_tiny_input_web/tiny3d-asmjs-index/lib_unity_tiny_input_web.bc
+shared:WARNING: Assuming object file output in the absence of `-c`, based on output filename. Please add with `-c` or `-r` to avoid this warning
+[ 928/1051  1s] Csc artifacts/Unity.Tiny.Burst.dll/tiny3d-asmjs-index/Unity.Tiny.Burst.dll (+2 others)
+[ 929/1051  0s] ILPostProcessorRunner artifacts/Tiny3D/tiny3d-asmjs-index/post_ilprocessing/Unity.Tiny.Burst.dll (+pdb)
+[ 930/1051  1s] Lib_WebGL_asmjs artifacts/lib_unity_tiny_rendering_native/tiny3d-asmjs-index/lib_unity_tiny_rendering_native.bc
+shared:WARNING: Assuming object file output in the absence of `-c`, based on output filename. Please add with `-c` or `-r` to avoid this warning
+[ 931/1051  1s] Csc artifacts/Unity.Burst.dll/tiny3d-asmjs-index/Unity.Burst.dll (+2 others)
+[ 932/1051  0s] ILPostProcessorRunner artifacts/Tiny3D/tiny3d-asmjs-index/post_ilprocessing/Unity.Burst.dll (+pdb)
+[ 933/1051  0s] Csc artifacts/Unity.ZeroJobs.dll/tiny3d-asmjs-index/Unity.ZeroJobs.dll (+2 others)
+[ 934/1051  0s] ILPostProcessorRunner artifacts/Tiny3D/tiny3d-asmjs-index/post_ilprocessing/Unity.ZeroJobs.dll (+pdb)
+[ 935/1051  0s] Csc artifacts/Unity.Platforms.RunLoop.dll/tiny3d-asmjs-index/Unity.Platforms.RunLoop.dll (+2 others)
+[ 936/1051  1s] Csc artifacts/Unity.Platforms.Common.dll/tiny3d-asmjs-index/Unity.Platforms.Common.dll (+2 others)
+[ 937/1051  0s] ILPostProcessorRunner artifacts/Tiny3D/tiny3d-asmjs-index/post_ilprocessing/Unity.Platforms.RunLoop.dll (+pdb)
+[ 938/1051  0s] ILPostProcessorRunner artifacts/Tiny3D/tiny3d-asmjs-index/post_ilprocessing/Unity.Platforms.Common.dll (+pdb)
+[ 939/1051  3s] Csc artifacts/Unity.Mathematics.dll/tiny3d-asmjs-index/Unity.Mathematics.dll (+2 others)
+[ 940/1051  0s] ILPostProcessorRunner artifacts/Tiny3D/tiny3d-asmjs-index/post_ilprocessing/Unity.Mathematics.dll (+pdb)
+[ 941/1051  1s] Csc artifacts/Unity.Collections.dll/tiny3d-asmjs-index/Unity.Collections.dll (+2 others)
+[ 942/1051  0s] ILPostProcessorRunner artifacts/Tiny3D/tiny3d-asmjs-index/post_ilprocessing/Unity.Collections.dll (+pdb)
+[ 943/1051  0s] Csc artifacts/Unity.Tiny.Codec.dll/tiny3d-asmjs-index/Unity.Tiny.Codec.dll (+2 others)
+[ 944/1051  0s] Csc artifacts/Unity.Jobs.dll/tiny3d-asmjs-index/Unity.Jobs.dll (+2 others)
+[ 945/1051  0s] ILPostProcessorRunner artifacts/Tiny3D/tiny3d-asmjs-index/post_ilprocessing/Unity.Tiny.Codec.dll (+pdb)
+[ 946/1051  0s] ILPostProcessorRunner artifacts/Tiny3D/tiny3d-asmjs-index/post_ilprocessing/Unity.Jobs.dll (+pdb)
+[ 947/1051  0s] Csc artifacts/Unity.Mathematics.Extensions.dll/tiny3d-asmjs-index/Unity.Mathematics.Extensions.dll (+2 others)
+[ 948/1051  0s] ILPostProcessorRunner artifacts/Tiny3D/tiny3d-asmjs-index/post_ilprocessing/Unity.Mathematics.Extensions.dll (+pdb)
+[ 949/1051  1s] Csc artifacts/Unity.Entities.dll/tiny3d-asmjs-index/Unity.Entities.dll (+2 others)
+[ 950/1051  0s] Csc artifacts/Unity.Tiny.Core.dll/tiny3d-asmjs-index/Unity.Tiny.Core.dll (+2 others)
+[ 951/1051  0s] Csc artifacts/Unity.Transforms.dll/tiny3d-asmjs-index/Unity.Transforms.dll (+2 others)
+[ 952/1051  0s] Csc artifacts/Unity.Entities.Runtime.dll/tiny3d-asmjs-index/Unity.Entities.Runtime.dll (+2 others)
+[ 953/1051  0s] Csc artifacts/Unity.Tiny.Image2D.dll/tiny3d-asmjs-index/Unity.Tiny.Image2D.dll (+2 others)
+[ 954/1051  0s] Csc artifacts/Unity.Tiny.IO.dll/tiny3d-asmjs-index/Unity.Tiny.IO.dll (+2 others)
+[ 955/1051  0s] Csc artifacts/Unity.Tiny.Web.dll/tiny3d-asmjs-index/Unity.Tiny.Web.dll (+2 others)
+[ 956/1051  0s] Csc artifacts/Unity.Tiny.Rendering.dll/tiny3d-asmjs-index/Unity.Tiny.Rendering.dll (+2 others)
+[ 957/1051  0s] Csc artifacts/Unity.Tiny.Input.dll/tiny3d-asmjs-index/Unity.Tiny.Input.dll (+2 others)
+[ 958/1051  1s] ILPostProcessorRunner artifacts/Tiny3D/tiny3d-asmjs-index/post_ilprocessing/Unity.Tiny.Core.dll (+pdb)
+[ 959/1051  2s] ILPostProcessorRunner artifacts/Tiny3D/tiny3d-asmjs-index/post_ilprocessing/Unity.Entities.dll (+pdb)
+[ 960/1051  1s] ILPostProcessorRunner artifacts/Tiny3D/tiny3d-asmjs-index/post_ilprocessing/Unity.Entities.Runtime.dll (+pdb)
+[ 961/1051  0s] Csc artifacts/Unity.Tiny.Image2D.Web.dll/tiny3d-asmjs-index/Unity.Tiny.Image2D.Web.dll (+2 others)
+[ 962/1051  1s] ILPostProcessorRunner artifacts/Tiny3D/tiny3d-asmjs-index/post_ilprocessing/Unity.Transforms.dll (+pdb)
+[ 963/1051  0s] Csc artifacts/Unity.Tiny.Scenes.dll/tiny3d-asmjs-index/Unity.Tiny.Scenes.dll (+2 others)
+[ 964/1051  1s] ILPostProcessorRunner artifacts/Tiny3D/tiny3d-asmjs-index/post_ilprocessing/Unity.Tiny.Image2D.dll (+pdb)
+[ 965/1051  0s] ILPostProcessorRunner artifacts/Tiny3D/tiny3d-asmjs-index/post_ilprocessing/Unity.Tiny.IO.dll (+pdb)
+[ 966/1051  0s] Csc artifacts/Unity.Tiny.Input.Web.dll/tiny3d-asmjs-index/Unity.Tiny.Input.Web.dll (+2 others)
+[ 967/1051  1s] ILPostProcessorRunner artifacts/Tiny3D/tiny3d-asmjs-index/post_ilprocessing/Unity.Tiny.Web.dll (+pdb)
+[ 968/1051  1s] ILPostProcessorRunner artifacts/Tiny3D/tiny3d-asmjs-index/post_ilprocessing/Unity.Tiny.Input.dll (+pdb)
+[ 969/1051  1s] ILPostProcessorRunner artifacts/Tiny3D/tiny3d-asmjs-index/post_ilprocessing/Unity.Tiny.Image2D.Web.dll (+pdb)
+[ 970/1051  0s] Csc artifacts/Unity.Tiny.UnityInstance.dll/tiny3d-asmjs-index/Unity.Tiny.UnityInstance.dll (+2 others)
+[ 971/1051  1s] Csc artifacts/Unity.Tiny.Rendering.Native.dll/tiny3d-asmjs-index/Unity.Tiny.Rendering.Native.dll (+2 others)
+[ 972/1051  3s] ILPostProcessorRunner artifacts/Tiny3D/tiny3d-asmjs-index/post_ilprocessing/Unity.Tiny.Rendering.dll (+pdb)
+[ 973/1051  0s] Csc artifacts/Unity.Runtime.EntryPoint.exe/tiny3d-asmjs-index/Unity.Runtime.EntryPoint.exe (+2 others)
+[ 974/1051  1s] ILPostProcessorRunner artifacts/Tiny3D/tiny3d-asmjs-index/post_ilprocessing/Unity.Tiny.Input.Web.dll (+pdb)
+[ 975/1051  0s] Csc artifacts/Unity.Tiny.RendererExtras.dll/tiny3d-asmjs-index/Unity.Tiny.RendererExtras.dll (+2 others)
+[ 976/1051  0s] ILPostProcessorRunner artifacts/Tiny3D/tiny3d-asmjs-index/post_ilprocessing/Unity.Tiny.UnityInstance.dll (+pdb)
+[ 977/1051  1s] ILPostProcessorRunner artifacts/Tiny3D/tiny3d-asmjs-index/post_ilprocessing/Unity.Tiny.Scenes.dll (+pdb)
+[ 978/1051  0s] ILPostProcessorRunner artifacts/Tiny3D/tiny3d-asmjs-index/post_ilprocessing/Unity.Runtime.EntryPoint.exe (+pdb)
+[ 979/1051  0s] Csc artifacts/Tiny3D.dll/tiny3d-asmjs-index/Tiny3D.dll (+2 others)
+[ 980/1051  2s] ILPostProcessorRunner artifacts/Tiny3D/tiny3d-asmjs-index/post_ilprocessing/Unity.Tiny.RendererExtras.dll (+pdb)
+[ 981/1051  2s] ILPostProcessorRunner artifacts/Tiny3D/tiny3d-asmjs-index/post_ilprocessing/Tiny3D.dll (+pdb)
+[ 982/1051  5s] ILPostProcessorRunner artifacts/Tiny3D/tiny3d-asmjs-index/post_ilprocessing/Unity.Tiny.Rendering.Native.dll (+pdb)
+[ 983/1051  2s] TypeRegGen artifacts/Tiny3D/tiny3d-asmjs-index/post_typereg/Tiny3D.dll (+59 others)
+[BUSY       6s] UnityLinker artifacts/Tiny3D/tiny3d-asmjs-index_stripped/Tiny3D.dll (+59 others)
+[ 984/1051 10s] UnityLinker artifacts/Tiny3D/tiny3d-asmjs-index_stripped/Tiny3D.dll (+59 others)
+[BUSY       6s] Il2Cpp artifacts/Tiny3D/tiny3d-asmjs-index_stripped/il2cpp-src/driver.cpp (+58 others)
+[BUSY      16s] Il2Cpp artifacts/Tiny3D/tiny3d-asmjs-index_stripped/il2cpp-src/driver.cpp (+58 others)
+[BUSY      26s] Il2Cpp artifacts/Tiny3D/tiny3d-asmjs-index_stripped/il2cpp-src/driver.cpp (+58 others)
+[ 985/1051 27s] Il2Cpp artifacts/Tiny3D/tiny3d-asmjs-index_stripped/il2cpp-src/driver.cpp (+58 others)
+Running il2cpp.exe in workstation GC mode.
+[ 986/1051  1s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/driver.o
+[ 987/1051  4s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/GenericMethods1.o
+[ 988/1051  4s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/GenericMethods2.o
+[ 989/1051  4s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/GenericMethods.o
+[ 990/1051  4s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/GenericMethods3.o
+[ 991/1051  3s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/GenericMethods6.o
+[ 992/1051  4s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/GenericMethods4.o
+[ 993/1051  4s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/GenericMethods5.o
+[ 994/1051  6s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/GenericMethods7.o
+[ 995/1051  8s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/GenericMethods8.o
+[ 996/1051 11s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/GenericMethods9.o
+[ 997/1051 11s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/Generics.o
+[ 998/1051  5s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/Generics2.o
+[ 999/1051  9s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/Generics1.o
+[1000/1051  6s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/Generics3.o
+[1001/1051 10s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/Generics4.o
+[1002/1051 10s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/Generics5.o
+[1003/1051 10s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/Generics6.o
+[BUSY       7s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/Generics8.o
+[1004/1051 14s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/Generics7.o
+[1005/1051  2s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/TinyTypes.o
+[1006/1051 13s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/Generics9.o
+[1007/1051  1s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/StaticConstructors.o
+[1008/1051  1s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/ModuleInitializers.o
+[1009/1051 16s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/Generics8.o
+[1010/1051  1s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/StringLiterals.o
+[1011/1051  1s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/StaticInitialization.o
+[1012/1051  1s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/Unity.Runtime.EntryPoint.o
+[1013/1051  2s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/Tiny3D.o
+[1014/1051  6s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/TinyMethods.o
+[1015/1051  1s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/Unity.Tiny.Input.Web.o
+[1016/1051  1s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/Unity.Tiny.Burst.o
+[1017/1051  2s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/Unity.Tiny.Web.o
+[1018/1051  1s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/Unity.LowLevel.o
+[1019/1051  2s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/Unity.ZeroJobs.o
+[1020/1051  1s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/Unity.Burst.o
+[1021/1051 28s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/Il2CppGenericComDefinitions.o
+[1022/1051  5s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/Unity.Mathematics.o
+[1023/1051  2s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/Unity.Tiny.Core.o
+[1024/1051  8s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/Unity.Transforms.o
+[1025/1051  1s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/Unity.Tiny.Input.o
+[1026/1051 23s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/Unity.Tiny.Rendering.Native.o
+[1027/1051  6s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/Unity.Tiny.Rendering.o
+[1028/1051  2s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/Unity.Tiny.RendererExtras.o
+[1029/1051  1s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/netstandard.o
+[1030/1051  1s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/Unity.Tiny.Image2D.o
+[1031/1051 19s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/Unity.Entities.o
+[1032/1051  5s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/mscorlib.o
+[1033/1051  1s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/Unity.Tiny.Image2D.Web.o
+[1034/1051  4s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/Unity.Collections.o
+[1035/1051  1s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/Unity.Mathematics.Extensions.o
+[1036/1051  1s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/Unity.Platforms.Common.o
+[1037/1051  1s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/UnsafeUtility.o
+[1038/1051  1s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/Unity.Tiny.UnityInstance.o
+[1039/1051  1s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/Unity.Platforms.RunLoop.o
+[1040/1051  2s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/Unity.Tiny.Scenes.o
+[1041/1051  1s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/Unity.Jobs.o
+[1042/1051  1s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/Unity.Tiny.Codec.o
+[1043/1051  1s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/Unity.Entities.Runtime.o
+[1044/1051  1s] C_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/n75g/Unity.Tiny.IO.o
+[BUSY       6s] Link_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/Tiny3D.html (+3 others)
+[BUSY      16s] Link_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/Tiny3D.html (+3 others)
+[1045/1051 18s] Link_WebGL_asmjs artifacts/Tiny3D/tiny3d-asmjs-index/Tiny3D.html (+3 others)
+[1046/1051  0s] CopyTool ../../Builds/tiny3d-asmjs-index/Tiny3D.js
+[1047/1051  0s] CopyTool ../../Builds/tiny3d-asmjs-index/Tiny3D.asm.js
+[1048/1051  0s] CopyTool ../../Builds/tiny3d-asmjs-index/Tiny3D.mem
+[1049/1051  0s] CopyTool ../../Builds/tiny3d-asmjs-index/Tiny3D.html
+*** Bee build success (228.96 seconds - 0:03:48), 430 items updated
